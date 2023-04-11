@@ -1,0 +1,166 @@
+h1 {
+    text-align: right;
+    color: gray;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .second .row div {
+    position: relative;
+  }
+
+  .second h2 {
+    font-size: 7rem;
+    font-weight: 400;
+    color: gray;
+  }
+
+  .second p {
+    font-size: large;
+    text-transform: uppercase;
+
+  }
+
+  .slick-dots li button:before {
+    font-size: 15px;
+  }
+
+  .aminities span {
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    left: 50%;
+    font-size: larger;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    display: block;
+    width: 90%;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+  #location_advan ul li {
+    font-size: 1.2rem;
+    list-style: square;
+  }
+
+  address {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+
+  address a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn-check:focus+.btn-primary,
+  .btn-primary:focus {
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    transition: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 28px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(0, 0, 0);
+  }
+
+  .slick-dots {
+    bottom: -30px;
+  }
+
+  .btn-primary {
+    background-color: #0a53a0;
+  }
+
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #0a53a0;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  #lightbox {
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #lightbox img {
+    max-width: 99%;
+    max-height: 650px;
+  }
+
+  .forlight {
+    cursor: pointer;
+  }
+.social .btn{
+background-color: #0a53a0;
+color: white;
+transform: rotate(90deg);
+}
+  @media screen and (max-width: 700px) {
+    .aminities span {
+      font-size: .8rem;
+      padding: 5px;
+    }
+
+    .second h2 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      text-align: center;
+    }
+
+    .aminities span {
+      font-size: medium;
+      padding: 5px;
+    }
+
+    .second h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      color: gray;
+    }
+
+    .second div {
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 85%;
+    }
+  }

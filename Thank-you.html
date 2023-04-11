@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You</title>
+<style>
+        body {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .bg-image {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 0;
+            background-image: url(assets/images/386d7760a76ab19107bb-resize.webp);
+            width: 100%;
+            -webkit-filter: blur(3px);
+            -moz-filter: blur(3px);
+            -o-filter: blur(3px);
+            -ms-filter: blur(3px);
+            filter: blur(3px);
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .thank {
+            margin: auto;
+            border-radius: 10px;
+            background-color: #0a53a0;
+            color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            min-width: 270px;
+            padding: 15px 10px;
+            text-align: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            z-index: 1;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            -webkit-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.49);
+            -moz-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.49);
+            box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.49);
+            border: 2px solid white;
+        }
+
+        .download {
+            position: relative;
+            background-color: #0a53a0;
+            border: none;
+            font-size: 28px;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+
+        .download:hover {
+            background-color: #033d7b;
+        }
+        .home{
+            color: white;
+            margin-top: 10px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+<div class="bg-image"></div>
+<div class="thank">
+<a href="index.html"> <img src="assets/icons/9ebe5fa23b1c5b0bc47e.svg" style="width: 200px;" alt=""></a>
+<h1>Thank You for Submitting Your Enquiry!</h1>
+<a>We will reach You Soon!</a>
+<a href="assets/images/Rio De Goa - Brochure (New Compressed).pdf" target="_blank" class="download" rel="noopener noreferrer">Download Brouchure</a>
+<a href="index.html" class="home">Go To Home</a>
+</div>
+</body>
+</html>
