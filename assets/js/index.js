@@ -158,5 +158,5 @@ $('.autoplay').slick({
     $('#exampleModal').modal('show');
     setTimeout(function () {
       $('#exampleModal').modal('show');
-    }, 5000);
+    }, 10000);
   });
